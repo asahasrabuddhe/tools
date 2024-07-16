@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	. "golang.org/x/tools/gopls/internal/test/integration"
+	. "github.com/asahasrabuddhe/tools/gopls/internal/test/integration"
 )
 
 func TestStdWorkspace(t *testing.T) {

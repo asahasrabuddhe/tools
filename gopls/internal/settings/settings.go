@@ -11,10 +11,10 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/tools/gopls/internal/file"
-	"golang.org/x/tools/gopls/internal/protocol"
-	"golang.org/x/tools/gopls/internal/util/maps"
-	"golang.org/x/tools/gopls/internal/util/slices"
+	"github.com/asahasrabuddhe/tools/gopls/internal/file"
+	"github.com/asahasrabuddhe/tools/gopls/internal/protocol"
+	"github.com/asahasrabuddhe/tools/gopls/internal/util/maps"
+	"github.com/asahasrabuddhe/tools/gopls/internal/util/slices"
 )
 
 type Annotation string

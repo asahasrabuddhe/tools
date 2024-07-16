@@ -27,12 +27,12 @@ import (
 	"unicode"
 	"unicode/utf8"
 
+	"github.com/asahasrabuddhe/tools/go/ast/astutil"
+	"github.com/asahasrabuddhe/tools/internal/event"
+	"github.com/asahasrabuddhe/tools/internal/gocommand"
+	"github.com/asahasrabuddhe/tools/internal/gopathwalk"
+	"github.com/asahasrabuddhe/tools/internal/stdlib"
 	"golang.org/x/sync/errgroup"
-	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/gocommand"
-	"golang.org/x/tools/internal/gopathwalk"
-	"golang.org/x/tools/internal/stdlib"
 )
 
 // importToGroup is a list of functions which map from an import path to

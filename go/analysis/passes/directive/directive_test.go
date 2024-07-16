@@ -7,10 +7,10 @@ package directive_test
 import (
 	"testing"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/analysistest"
-	"golang.org/x/tools/go/analysis/passes/directive"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/asahasrabuddhe/tools/go/analysis"
+	"github.com/asahasrabuddhe/tools/go/analysis/analysistest"
+	"github.com/asahasrabuddhe/tools/go/analysis/passes/directive"
+	"github.com/asahasrabuddhe/tools/internal/testenv"
 )
 
 func Test(t *testing.T) {

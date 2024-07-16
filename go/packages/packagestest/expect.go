@@ -13,8 +13,8 @@ import (
 	"regexp"
 	"strings"
 
-	"golang.org/x/tools/go/expect"
-	"golang.org/x/tools/go/packages"
+	"github.com/asahasrabuddhe/tools/go/expect"
+	"github.com/asahasrabuddhe/tools/go/packages"
 )
 
 const (

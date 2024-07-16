@@ -13,10 +13,10 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/gopls/internal/protocol"
-	"golang.org/x/tools/gopls/internal/protocol/command"
-	. "golang.org/x/tools/gopls/internal/test/integration"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/asahasrabuddhe/tools/gopls/internal/protocol"
+	"github.com/asahasrabuddhe/tools/gopls/internal/protocol/command"
+	. "github.com/asahasrabuddhe/tools/gopls/internal/test/integration"
+	"github.com/asahasrabuddhe/tools/internal/testenv"
 )
 
 // TestWebServer exercises the web server created on demand

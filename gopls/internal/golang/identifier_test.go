@@ -12,7 +12,7 @@ import (
 	"go/types"
 	"testing"
 
-	"golang.org/x/tools/internal/versions"
+	"github.com/asahasrabuddhe/tools/internal/versions"
 )
 
 func TestSearchForEnclosing(t *testing.T) {

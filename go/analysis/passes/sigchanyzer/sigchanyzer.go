@@ -14,10 +14,10 @@ import (
 	"go/token"
 	"go/types"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/inspect"
-	"golang.org/x/tools/go/analysis/passes/internal/analysisutil"
-	"golang.org/x/tools/go/ast/inspector"
+	"github.com/asahasrabuddhe/tools/go/analysis"
+	"github.com/asahasrabuddhe/tools/go/analysis/passes/inspect"
+	"github.com/asahasrabuddhe/tools/go/analysis/passes/internal/analysisutil"
+	"github.com/asahasrabuddhe/tools/go/ast/inspector"
 )
 
 //go:embed doc.go
@@ -27,7 +27,7 @@ var doc string
 var Analyzer = &analysis.Analyzer{
 	Name:     "sigchanyzer",
 	Doc:      analysisutil.MustExtractDoc(doc, "sigchanyzer"),
-	URL:      "https://pkg.go.dev/golang.org/x/tools/go/analysis/passes/sigchanyzer",
+	URL:      "https://pkg.go.dev/github.com/asahasrabuddhe/tools/go/analysis/passes/sigchanyzer",
 	Requires: []*analysis.Analyzer{inspect.Analyzer},
 	Run:      run,
 }

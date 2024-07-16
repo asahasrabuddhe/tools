@@ -112,7 +112,7 @@ Result:
 ```
 {
 	// Holds changes to existing resources.
-	"changes": map[golang.org/x/tools/gopls/internal/protocol.DocumentURI][]golang.org/x/tools/gopls/internal/protocol.TextEdit,
+	"changes": map[github.com/asahasrabuddhe/tools/gopls/internal/protocol.DocumentURI][]github.com/asahasrabuddhe/tools/gopls/internal/protocol.TextEdit,
 	// Depending on the client capability `workspace.workspaceEdit.resourceOperations` document changes
 	// are either an array of `TextDocumentEdit`s to express changes to n different text documents
 	// where each text document edit addresses a specific version of a text document. Or it can contain
@@ -154,7 +154,7 @@ Result:
 	// Whether clients honor this property depends on the client capability `workspace.changeAnnotationSupport`.
 	//
 	// @since 3.16.0
-	"changeAnnotations": map[string]golang.org/x/tools/gopls/internal/protocol.ChangeAnnotation,
+	"changeAnnotations": map[string]github.com/asahasrabuddhe/tools/gopls/internal/protocol.ChangeAnnotation,
 }
 ```
 
@@ -200,7 +200,7 @@ Result:
 ```
 {
 	// Holds changes to existing resources.
-	"changes": map[golang.org/x/tools/gopls/internal/protocol.DocumentURI][]golang.org/x/tools/gopls/internal/protocol.TextEdit,
+	"changes": map[github.com/asahasrabuddhe/tools/gopls/internal/protocol.DocumentURI][]github.com/asahasrabuddhe/tools/gopls/internal/protocol.TextEdit,
 	// Depending on the client capability `workspace.workspaceEdit.resourceOperations` document changes
 	// are either an array of `TextDocumentEdit`s to express changes to n different text documents
 	// where each text document edit addresses a specific version of a text document. Or it can contain
@@ -242,7 +242,7 @@ Result:
 	// Whether clients honor this property depends on the client capability `workspace.changeAnnotationSupport`.
 	//
 	// @since 3.16.0
-	"changeAnnotations": map[string]golang.org/x/tools/gopls/internal/protocol.ChangeAnnotation,
+	"changeAnnotations": map[string]github.com/asahasrabuddhe/tools/gopls/internal/protocol.ChangeAnnotation,
 }
 ```
 
@@ -355,7 +355,7 @@ Args:
 Result:
 
 ```
-map[golang.org/x/tools/gopls/internal/protocol.DocumentURI]*golang.org/x/tools/gopls/internal/vulncheck.Result
+map[github.com/asahasrabuddhe/tools/gopls/internal/protocol.DocumentURI]*github.com/asahasrabuddhe/tools/gopls/internal/vulncheck.Result
 ```
 
 <a id='gopls.free_symbols'></a>
@@ -593,7 +593,7 @@ Result:
 	},
 	// Modules maps module path to module metadata for
 	// all the modules of the returned Packages.
-	"Module": map[string]golang.org/x/tools/gopls/internal/protocol/command.Module,
+	"Module": map[string]github.com/asahasrabuddhe/tools/gopls/internal/protocol/command.Module,
 }
 ```
 

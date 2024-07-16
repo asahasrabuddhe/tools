@@ -7,12 +7,12 @@ package golang
 import (
 	"context"
 
-	"golang.org/x/tools/gopls/internal/cache"
-	"golang.org/x/tools/gopls/internal/cache/metadata"
-	"golang.org/x/tools/gopls/internal/progress"
-	"golang.org/x/tools/gopls/internal/protocol"
-	"golang.org/x/tools/gopls/internal/settings"
-	"golang.org/x/tools/gopls/internal/util/maps"
+	"github.com/asahasrabuddhe/tools/gopls/internal/cache"
+	"github.com/asahasrabuddhe/tools/gopls/internal/cache/metadata"
+	"github.com/asahasrabuddhe/tools/gopls/internal/progress"
+	"github.com/asahasrabuddhe/tools/gopls/internal/protocol"
+	"github.com/asahasrabuddhe/tools/gopls/internal/settings"
+	"github.com/asahasrabuddhe/tools/gopls/internal/util/maps"
 )
 
 // Analyze reports go/analysis-framework diagnostics in the specified package.

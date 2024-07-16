@@ -13,12 +13,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/asahasrabuddhe/tools/gopls/internal/protocol"
+	"github.com/asahasrabuddhe/tools/gopls/internal/protocol/command"
+	"github.com/asahasrabuddhe/tools/gopls/internal/server"
+	. "github.com/asahasrabuddhe/tools/gopls/internal/test/integration"
 	"golang.org/x/telemetry/counter"
 	"golang.org/x/telemetry/counter/countertest"
-	"golang.org/x/tools/gopls/internal/protocol"
-	"golang.org/x/tools/gopls/internal/protocol/command"
-	"golang.org/x/tools/gopls/internal/server"
-	. "golang.org/x/tools/gopls/internal/test/integration"
 )
 
 // Test prompt file in old and new formats are handled as expected.

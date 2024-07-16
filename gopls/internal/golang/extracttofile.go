@@ -19,13 +19,13 @@ import (
 	"path/filepath"
 	"strings"
 
-	"golang.org/x/tools/gopls/internal/cache"
-	"golang.org/x/tools/gopls/internal/cache/parsego"
-	"golang.org/x/tools/gopls/internal/file"
-	"golang.org/x/tools/gopls/internal/protocol"
-	"golang.org/x/tools/gopls/internal/util/bug"
-	"golang.org/x/tools/gopls/internal/util/safetoken"
-	"golang.org/x/tools/gopls/internal/util/typesutil"
+	"github.com/asahasrabuddhe/tools/gopls/internal/cache"
+	"github.com/asahasrabuddhe/tools/gopls/internal/cache/parsego"
+	"github.com/asahasrabuddhe/tools/gopls/internal/file"
+	"github.com/asahasrabuddhe/tools/gopls/internal/protocol"
+	"github.com/asahasrabuddhe/tools/gopls/internal/util/bug"
+	"github.com/asahasrabuddhe/tools/gopls/internal/util/safetoken"
+	"github.com/asahasrabuddhe/tools/gopls/internal/util/typesutil"
 )
 
 // canExtractToNewFile reports whether the code in the given range can be extracted to a new file.

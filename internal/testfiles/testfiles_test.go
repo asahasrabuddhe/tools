@@ -9,11 +9,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/analysistest"
-	"golang.org/x/tools/internal/testenv"
-	"golang.org/x/tools/internal/testfiles"
-	"golang.org/x/tools/internal/versions"
+	"github.com/asahasrabuddhe/tools/go/analysis"
+	"github.com/asahasrabuddhe/tools/go/analysis/analysistest"
+	"github.com/asahasrabuddhe/tools/internal/testenv"
+	"github.com/asahasrabuddhe/tools/internal/testfiles"
+	"github.com/asahasrabuddhe/tools/internal/versions"
 )
 
 func TestTestDir(t *testing.T) {

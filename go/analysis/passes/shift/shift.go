@@ -17,12 +17,12 @@ import (
 	"go/types"
 	"math"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/inspect"
-	"golang.org/x/tools/go/analysis/passes/internal/analysisutil"
-	"golang.org/x/tools/go/ast/inspector"
-	"golang.org/x/tools/internal/aliases"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/asahasrabuddhe/tools/go/analysis"
+	"github.com/asahasrabuddhe/tools/go/analysis/passes/inspect"
+	"github.com/asahasrabuddhe/tools/go/analysis/passes/internal/analysisutil"
+	"github.com/asahasrabuddhe/tools/go/ast/inspector"
+	"github.com/asahasrabuddhe/tools/internal/aliases"
+	"github.com/asahasrabuddhe/tools/internal/typeparams"
 )
 
 const Doc = "check for shifts that equal or exceed the width of the integer"
@@ -30,7 +30,7 @@ const Doc = "check for shifts that equal or exceed the width of the integer"
 var Analyzer = &analysis.Analyzer{
 	Name:     "shift",
 	Doc:      Doc,
-	URL:      "https://pkg.go.dev/golang.org/x/tools/go/analysis/passes/shift",
+	URL:      "https://pkg.go.dev/github.com/asahasrabuddhe/tools/go/analysis/passes/shift",
 	Requires: []*analysis.Analyzer{inspect.Analyzer},
 	Run:      run,
 }

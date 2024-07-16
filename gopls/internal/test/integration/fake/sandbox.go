@@ -12,10 +12,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"golang.org/x/tools/internal/gocommand"
-	"golang.org/x/tools/internal/robustio"
-	"golang.org/x/tools/internal/testenv"
-	"golang.org/x/tools/txtar"
+	"github.com/asahasrabuddhe/tools/internal/gocommand"
+	"github.com/asahasrabuddhe/tools/internal/robustio"
+	"github.com/asahasrabuddhe/tools/internal/testenv"
+	"github.com/asahasrabuddhe/tools/txtar"
 )
 
 // Sandbox holds a collection of temporary resources to use for working with Go

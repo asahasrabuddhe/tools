@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/tools/go/packages/packagestest"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/asahasrabuddhe/tools/go/packages/packagestest"
+	"github.com/asahasrabuddhe/tools/internal/testenv"
 )
 
 func TestMain(m *testing.M) {

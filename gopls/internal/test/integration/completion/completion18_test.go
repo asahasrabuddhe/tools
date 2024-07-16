@@ -7,8 +7,8 @@ package completion
 import (
 	"testing"
 
-	"golang.org/x/tools/gopls/internal/protocol"
-	. "golang.org/x/tools/gopls/internal/test/integration"
+	"github.com/asahasrabuddhe/tools/gopls/internal/protocol"
+	. "github.com/asahasrabuddhe/tools/gopls/internal/test/integration"
 )
 
 // test generic receivers

@@ -11,11 +11,11 @@ import (
 	"go/token"
 	"strings"
 
-	"golang.org/x/tools/gopls/internal/cache"
-	"golang.org/x/tools/gopls/internal/cache/metadata"
-	"golang.org/x/tools/gopls/internal/cache/parsego"
-	"golang.org/x/tools/gopls/internal/protocol"
-	"golang.org/x/tools/gopls/internal/util/safetoken"
+	"github.com/asahasrabuddhe/tools/gopls/internal/cache"
+	"github.com/asahasrabuddhe/tools/gopls/internal/cache/metadata"
+	"github.com/asahasrabuddhe/tools/gopls/internal/cache/parsego"
+	"github.com/asahasrabuddhe/tools/gopls/internal/protocol"
+	"github.com/asahasrabuddhe/tools/gopls/internal/util/safetoken"
 )
 
 // ErrNoLinkname is returned by LinknameDefinition when no linkname

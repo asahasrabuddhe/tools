@@ -13,11 +13,11 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/event/core"
-	"golang.org/x/tools/internal/event/export"
-	"golang.org/x/tools/internal/event/label"
-	"golang.org/x/tools/internal/jsonrpc2"
+	"github.com/asahasrabuddhe/tools/internal/event"
+	"github.com/asahasrabuddhe/tools/internal/event/core"
+	"github.com/asahasrabuddhe/tools/internal/event/export"
+	"github.com/asahasrabuddhe/tools/internal/event/label"
+	"github.com/asahasrabuddhe/tools/internal/jsonrpc2"
 )
 
 var RPCTmpl = template.Must(template.Must(BaseTemplate.Clone()).Parse(`

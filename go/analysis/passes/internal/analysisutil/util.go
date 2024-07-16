@@ -14,9 +14,9 @@ import (
 	"go/types"
 	"os"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/internal/aliases"
-	"golang.org/x/tools/internal/analysisinternal"
+	"github.com/asahasrabuddhe/tools/go/analysis"
+	"github.com/asahasrabuddhe/tools/internal/aliases"
+	"github.com/asahasrabuddhe/tools/internal/analysisinternal"
 )
 
 // Format returns a string representation of the expression.

@@ -39,13 +39,13 @@ import (
 	"runtime"
 	"strings"
 
-	"golang.org/x/tools/godoc"
-	"golang.org/x/tools/godoc/static"
-	"golang.org/x/tools/godoc/vfs"
-	"golang.org/x/tools/godoc/vfs/gatefs"
-	"golang.org/x/tools/godoc/vfs/mapfs"
-	"golang.org/x/tools/godoc/vfs/zipfs"
-	"golang.org/x/tools/internal/gocommand"
+	"github.com/asahasrabuddhe/tools/godoc"
+	"github.com/asahasrabuddhe/tools/godoc/static"
+	"github.com/asahasrabuddhe/tools/godoc/vfs"
+	"github.com/asahasrabuddhe/tools/godoc/vfs/gatefs"
+	"github.com/asahasrabuddhe/tools/godoc/vfs/mapfs"
+	"github.com/asahasrabuddhe/tools/godoc/vfs/zipfs"
+	"github.com/asahasrabuddhe/tools/internal/gocommand"
 )
 
 const defaultAddr = "localhost:6060" // default webserver address

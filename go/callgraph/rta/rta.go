@@ -35,17 +35,17 @@
 // reachable, the code of that function is analyzed for more call sites,
 // address-taken functions, and runtime types.  The process continues
 // until a fixed point is reached.
-package rta // import "golang.org/x/tools/go/callgraph/rta"
+package rta // import "github.com/asahasrabuddhe/tools/go/callgraph/rta"
 
 import (
 	"fmt"
 	"go/types"
 	"hash/crc32"
 
-	"golang.org/x/tools/go/callgraph"
-	"golang.org/x/tools/go/ssa"
-	"golang.org/x/tools/go/types/typeutil"
-	"golang.org/x/tools/internal/aliases"
+	"github.com/asahasrabuddhe/tools/go/callgraph"
+	"github.com/asahasrabuddhe/tools/go/ssa"
+	"github.com/asahasrabuddhe/tools/go/types/typeutil"
+	"github.com/asahasrabuddhe/tools/internal/aliases"
 )
 
 // A Result holds the results of Rapid Type Analysis, which includes the

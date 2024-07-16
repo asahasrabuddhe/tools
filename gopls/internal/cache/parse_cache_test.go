@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/tools/gopls/internal/cache/parsego"
-	"golang.org/x/tools/gopls/internal/file"
-	"golang.org/x/tools/gopls/internal/protocol"
+	"github.com/asahasrabuddhe/tools/gopls/internal/cache/parsego"
+	"github.com/asahasrabuddhe/tools/gopls/internal/file"
+	"github.com/asahasrabuddhe/tools/gopls/internal/protocol"
 )
 
 func skipIfNoParseCache(t *testing.T) {

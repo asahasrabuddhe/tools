@@ -16,12 +16,12 @@ import (
 	"sync"
 	"time"
 
+	"github.com/asahasrabuddhe/tools/gopls/internal/cache/parsego"
+	"github.com/asahasrabuddhe/tools/gopls/internal/file"
+	"github.com/asahasrabuddhe/tools/gopls/internal/protocol"
+	"github.com/asahasrabuddhe/tools/internal/memoize"
+	"github.com/asahasrabuddhe/tools/internal/tokeninternal"
 	"golang.org/x/sync/errgroup"
-	"golang.org/x/tools/gopls/internal/cache/parsego"
-	"golang.org/x/tools/gopls/internal/file"
-	"golang.org/x/tools/gopls/internal/protocol"
-	"golang.org/x/tools/internal/memoize"
-	"golang.org/x/tools/internal/tokeninternal"
 )
 
 // This file contains an implementation of an LRU parse cache, that offsets the

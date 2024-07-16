@@ -12,11 +12,11 @@ import (
 	"log"
 	"os"
 
-	"golang.org/x/tools/gopls/internal/protocol"
-	"golang.org/x/tools/gopls/internal/protocol/command"
-	"golang.org/x/tools/gopls/internal/server"
-	"golang.org/x/tools/gopls/internal/util/slices"
-	"golang.org/x/tools/internal/tool"
+	"github.com/asahasrabuddhe/tools/gopls/internal/protocol"
+	"github.com/asahasrabuddhe/tools/gopls/internal/protocol/command"
+	"github.com/asahasrabuddhe/tools/gopls/internal/server"
+	"github.com/asahasrabuddhe/tools/gopls/internal/util/slices"
+	"github.com/asahasrabuddhe/tools/internal/tool"
 )
 
 // execute implements the LSP ExecuteCommand verb for gopls.

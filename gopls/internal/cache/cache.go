@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"sync/atomic"
 
-	"golang.org/x/tools/gopls/internal/protocol/command"
-	"golang.org/x/tools/internal/imports"
-	"golang.org/x/tools/internal/memoize"
+	"github.com/asahasrabuddhe/tools/gopls/internal/protocol/command"
+	"github.com/asahasrabuddhe/tools/internal/imports"
+	"github.com/asahasrabuddhe/tools/internal/memoize"
 )
 
 // New Creates a new cache for gopls operation results, using the given file

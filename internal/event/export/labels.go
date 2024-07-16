@@ -7,9 +7,9 @@ package export
 import (
 	"context"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/event/core"
-	"golang.org/x/tools/internal/event/label"
+	"github.com/asahasrabuddhe/tools/internal/event"
+	"github.com/asahasrabuddhe/tools/internal/event/core"
+	"github.com/asahasrabuddhe/tools/internal/event/label"
 )
 
 // Labels builds an exporter that manipulates the context using the event.

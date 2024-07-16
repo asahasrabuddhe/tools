@@ -8,14 +8,14 @@ import (
 	"sync"
 	"testing"
 
-	"golang.org/x/tools/go/callgraph"
-	"golang.org/x/tools/go/callgraph/cha"
-	"golang.org/x/tools/go/callgraph/rta"
-	"golang.org/x/tools/go/callgraph/static"
-	"golang.org/x/tools/go/callgraph/vta"
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/ssa"
-	"golang.org/x/tools/go/ssa/ssautil"
+	"github.com/asahasrabuddhe/tools/go/callgraph"
+	"github.com/asahasrabuddhe/tools/go/callgraph/cha"
+	"github.com/asahasrabuddhe/tools/go/callgraph/rta"
+	"github.com/asahasrabuddhe/tools/go/callgraph/static"
+	"github.com/asahasrabuddhe/tools/go/callgraph/vta"
+	"github.com/asahasrabuddhe/tools/go/loader"
+	"github.com/asahasrabuddhe/tools/go/ssa"
+	"github.com/asahasrabuddhe/tools/go/ssa/ssautil"
 )
 
 // Benchmarks comparing different callgraph algorithms implemented in

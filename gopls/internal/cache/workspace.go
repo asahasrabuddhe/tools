@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"path/filepath"
 
+	"github.com/asahasrabuddhe/tools/gopls/internal/file"
+	"github.com/asahasrabuddhe/tools/gopls/internal/protocol"
 	"golang.org/x/mod/modfile"
-	"golang.org/x/tools/gopls/internal/file"
-	"golang.org/x/tools/gopls/internal/protocol"
 )
 
 // isGoWork reports if uri is a go.work file.

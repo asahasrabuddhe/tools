@@ -4,7 +4,7 @@
 
 package settings
 
-import "golang.org/x/tools/gopls/internal/protocol"
+import "github.com/asahasrabuddhe/tools/gopls/internal/protocol"
 
 // This file defines constants for non-standard CodeActions.
 

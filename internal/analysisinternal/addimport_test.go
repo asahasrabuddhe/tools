@@ -15,9 +15,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/asahasrabuddhe/tools/go/analysis"
+	"github.com/asahasrabuddhe/tools/internal/analysisinternal"
 	"github.com/google/go-cmp/cmp"
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/internal/analysisinternal"
 )
 
 func TestAddImport(t *testing.T) {

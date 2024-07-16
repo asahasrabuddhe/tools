@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/tools/godoc/vfs"
+	"github.com/asahasrabuddhe/tools/godoc/vfs"
 )
 
 var (

@@ -7,8 +7,8 @@ package useany_test
 import (
 	"testing"
 
-	"golang.org/x/tools/go/analysis/analysistest"
-	"golang.org/x/tools/gopls/internal/analysis/useany"
+	"github.com/asahasrabuddhe/tools/go/analysis/analysistest"
+	"github.com/asahasrabuddhe/tools/gopls/internal/analysis/useany"
 )
 
 func Test(t *testing.T) {

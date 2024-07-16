@@ -11,8 +11,8 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/gopls/internal/doc"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/asahasrabuddhe/tools/gopls/internal/doc"
+	"github.com/asahasrabuddhe/tools/internal/testenv"
 )
 
 // TestVetSuite ensures that gopls's analyser suite is a superset of vet's.

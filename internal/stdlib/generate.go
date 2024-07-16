@@ -26,7 +26,7 @@ import (
 	"slices"
 	"strings"
 
-	"golang.org/x/tools/go/packages"
+	"github.com/asahasrabuddhe/tools/go/packages"
 )
 
 func main() {

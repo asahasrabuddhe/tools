@@ -38,14 +38,14 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/gopls/internal/cmd"
-	"golang.org/x/tools/gopls/internal/debug"
-	"golang.org/x/tools/gopls/internal/protocol"
-	"golang.org/x/tools/gopls/internal/util/bug"
-	"golang.org/x/tools/gopls/internal/version"
-	"golang.org/x/tools/internal/testenv"
-	"golang.org/x/tools/internal/tool"
-	"golang.org/x/tools/txtar"
+	"github.com/asahasrabuddhe/tools/gopls/internal/cmd"
+	"github.com/asahasrabuddhe/tools/gopls/internal/debug"
+	"github.com/asahasrabuddhe/tools/gopls/internal/protocol"
+	"github.com/asahasrabuddhe/tools/gopls/internal/util/bug"
+	"github.com/asahasrabuddhe/tools/gopls/internal/version"
+	"github.com/asahasrabuddhe/tools/internal/testenv"
+	"github.com/asahasrabuddhe/tools/internal/tool"
+	"github.com/asahasrabuddhe/tools/txtar"
 )
 
 // TestVersion tests the 'version' subcommand (../info.go).

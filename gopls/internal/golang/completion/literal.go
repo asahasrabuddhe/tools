@@ -11,12 +11,12 @@ import (
 	"strings"
 	"unicode"
 
-	"golang.org/x/tools/gopls/internal/golang"
-	"golang.org/x/tools/gopls/internal/golang/completion/snippet"
-	"golang.org/x/tools/gopls/internal/protocol"
-	"golang.org/x/tools/internal/aliases"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/typesinternal"
+	"github.com/asahasrabuddhe/tools/gopls/internal/golang"
+	"github.com/asahasrabuddhe/tools/gopls/internal/golang/completion/snippet"
+	"github.com/asahasrabuddhe/tools/gopls/internal/protocol"
+	"github.com/asahasrabuddhe/tools/internal/aliases"
+	"github.com/asahasrabuddhe/tools/internal/event"
+	"github.com/asahasrabuddhe/tools/internal/typesinternal"
 )
 
 // literal generates composite literal, function literal, and make()

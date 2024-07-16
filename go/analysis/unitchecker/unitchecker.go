@@ -47,11 +47,11 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/internal/analysisflags"
-	"golang.org/x/tools/internal/analysisinternal"
-	"golang.org/x/tools/internal/facts"
-	"golang.org/x/tools/internal/versions"
+	"github.com/asahasrabuddhe/tools/go/analysis"
+	"github.com/asahasrabuddhe/tools/go/analysis/internal/analysisflags"
+	"github.com/asahasrabuddhe/tools/internal/analysisinternal"
+	"github.com/asahasrabuddhe/tools/internal/facts"
+	"github.com/asahasrabuddhe/tools/internal/versions"
 )
 
 // A Config describes a compilation unit to be analyzed.
