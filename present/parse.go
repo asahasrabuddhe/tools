@@ -105,7 +105,7 @@ func (p *Author) TextElem() (elems []Elem) {
 // comprising a title and a list of elements.
 type Section struct {
 	Number  []int
-	Title   string
+	Title   template.HTML
 	ID      string // HTML anchor ID
 	Elem    []Elem
 	Notes   []string
@@ -394,9 +394,13 @@ func parseSections(ctx *Context, name, prefix string, lines *Lines, number []int
 				title = strings.TrimSpace(title[:j])
 			}
 		}
+		titleHtml, err := renderMarkdown([]byte(title))
+		if err != nil {
+			return nil, err
+		}
 		section := Section{
 			Number: append(append([]int{}, number...), i),
-			Title:  title,
+			Title:  titleHtml,
 			ID:     id,
 		}
 		text, ok = lines.nextNonEmpty()
